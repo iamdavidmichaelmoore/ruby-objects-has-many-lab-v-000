@@ -9,7 +9,10 @@ class Post
   end
 
 def author_name
-  self.author.name
+  if self.author.name == false
+    return nil
+  else
+    self.author.name
   binding.pry
 end
 

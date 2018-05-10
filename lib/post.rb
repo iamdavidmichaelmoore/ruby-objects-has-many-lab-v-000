@@ -8,14 +8,6 @@ class Post
     @title = title
   end
 
-#def author_name
-#  if self.author.nil?
-#    nil
-#  else
-#    self.author.name
-#  end
-#end
-
   def author_name
     self.author.nil? ? nil : self.author.name
   end

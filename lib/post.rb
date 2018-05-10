@@ -2,7 +2,7 @@ require 'pry'
 
 class Post
 
-  attr_accessor :title, :author
+  attr_accessor :title, :author, :name
 
   def initialize(title)
     @title = title

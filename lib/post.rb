@@ -16,4 +16,8 @@ def author_name
   end
 end
 
+def author_name
+  self.author.nil? ? nil ; self.author.name
+end
+
 end

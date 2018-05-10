@@ -13,7 +13,6 @@ def author_name
     return nil
   else
     self.author.name
-  #binding.pry
   end
 end
 

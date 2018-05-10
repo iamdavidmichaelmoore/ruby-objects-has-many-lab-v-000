@@ -1,4 +1,4 @@
-required 'pry'
+require 'pry'
 
 class Post
 

@@ -14,7 +14,7 @@ def author_name
   else
     self.author.name
   binding.pry
-end
+  end
 end
 
 end

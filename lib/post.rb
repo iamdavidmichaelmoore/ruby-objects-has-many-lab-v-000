@@ -13,6 +13,6 @@ def author_name
     nil
   end
 end
-  
+
 
 end
